@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="consumer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="/jquery-3.6.0.min.js"></script>
+    <title>Consumer</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/resim12.jpg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+               <span class="navbarName">Tomorrowland</span> 
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!---Showcase --->
+<section class="bg-dark text-light p-5 text-center">
+    <div class="container">
+        <div class="d-sm-flex">
+            <div>
+                <h1>BURASI <span class="text-warning">ÇOK HOŞUNUZA GİDECEK</span></h1>
+                <p class="m-3 lead text-sm-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ex harum a 
+                    sapiente facilis illo voluptatibus recusandae quisquam minima repellat ipsa 
+                    cupiditate omnis quos optio dolorem perferendis reiciendis et in suscipit placeat
+                     ullam, amet nobis. Voluptatem libero quas error amet inventore officiis pariatur 
+                     cupiditate 
+                    blanditiis veritatis repudiandae asperiores, repellendus minus?</p>
+                 <button id="saklamak" class="btn btn-primary btn-lg">
+                     Let's Start
+                 </button>
+
+            </div>
+            <img class="img-fluid" src="/resim12.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+<form id="formRegister">
+    <div class="mb-3">
+      <label  class="form-label">Email address</label>
+      <input type="email" class="form-control" id="mailText" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Username</label>
+      <input type="username" class="form-control" id="usernameText">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Password</label>
+      <input type="password" class="form-control" id="passwordText">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button id="saveButton" type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <section id="loginSection" class="bg-primary text-light  p-5">
+    <div class="container"></div>
+    <div>
+      <h2>Eğer kayıt olduysan giriş yap</h2>
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Email address</label>
+      <input type="email" class="form-control" id="mailTextLogin" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Username</label>
+      <input type="username" class="form-control" id="usernameTextLogin">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Password</label>
+      <input type="password" class="form-control" id="passwordTextLogin">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button id="loginButton" type="submit" class="btn btn-primary">Submit</button>
+</div>
+</section>
+<section id="deleteandupgradeSection" class="text-light">
+  <div class="container">
+    <div class="raw">
+      <div class="col-4">
+     
+      <button id="deleteButton" type="submit">Silmek için bas</button>
+    </div>
+      <div class="col-4">
+     
+      <button id="upgradeButtonForUpgrade" type="submit">Update için bas</button>
+    </div>
+      </div>
+    </div>
+</section>
+
+<!-- udate section   -->
+<section id="ugradeSection">
+  <div class="container">
+    <div class="mb-3">
+      <label  class="form-label">Email address</label>
+      <input type="email" class="form-control" id="mailTextUpg" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Username</label>
+      <input type="username" class="form-control" id="usernameTextUpg">
+    </div>
+    <div class="mb-3">
+      <label  class="form-label">Password</label>
+      <input type="password" class="form-control" id="passwordTextUpg">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button id="upgradeButton" type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</section>
+
+<!--TABEL FOR SEEİNG EVERY CONSUMER-->
+<table class="table">
+  <thead>
+    <tr>
+     
+      <th scope="col">Name</th>
+      <th scope="col">Pass</th>
+      <th scope="col">Mail</th>
+    </tr>
+  </thead>
+  <tbody id="tableEkle">
+    <tr>
+      <td >Larry the Bird</td>
+      <td >Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+</body>
+</html>
